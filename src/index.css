@@ -1,13 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 500px) {
+  body,
+  html {
+    background-image: none !important;
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.teamsBoxDropdown {
+  @apply fixed top-[46px] max-w-[638px] w-full z-[9999] pt-[8px] bg-[#f6f6f9] grid grid-cols-[1fr_70px_1fr] gap-y-[8px] transition-all duration-500 ease-in-out;
+  left: -100%;
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.teamsBoxDropdown.active {
+  @apply translate-y-0 opacity-100;
+}
+
+@media (max-width: 500px) {
+  .teamsBoxDropdown {
+    left: 0;
+  }
+}
+
+.standard-box {
+  @apply shadow-[0_1px_2px_0_rgba(50,50,50,0.4)];
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+/* Add padding to the main content to account for the navbar height */
+#Match-Page {
+  padding-top: 46px; /* Adjust this value based on the height of your navbar */
 }
