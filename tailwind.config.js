@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {
+      'shadow-team-sm': '0 1px 2px 0 rgba(50, 50, 50, 0.4)',
       colors: {
         'custom-gray': '#292929',
         'custom-bg': '#f6f6f9',

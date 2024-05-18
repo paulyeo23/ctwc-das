@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+  .sm\:text-\[9px\] {
+    font-size: 9px;
+  }
+  .sm\:mb-\[3px\] {
+    margin-bottom: 3px;
+  }
+}

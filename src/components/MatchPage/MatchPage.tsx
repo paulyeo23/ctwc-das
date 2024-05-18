@@ -6,10 +6,7 @@ import { ComapreStats } from "./ComapreStats/CompareStats";
 
 export const MatchPage: React.FC = () => {
   return (
-    <div
-      className="min-h-screen bg-slate-200 text-gray-800 font-sans overflow-y-scroll h-screen text-sm leading-relaxed"
-      id="Match-Page"
-    >
+    <div id="Match-Page">
       {/* <MatchBoxDropdown /> */}
       <MatchInfo />
       <MatchDetails />
