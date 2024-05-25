@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+  .guide-weekday {
+    @apply w-[75px];
+  }
+  .guide-event-name {
+    @apply w-[130px];
+  }
+}

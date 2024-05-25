@@ -1,0 +1,14 @@
+@media (max-width: 500px) {
+  .liveMatch,
+  .upcomingMatch {
+    @apply px-2 h-max;
+  }
+
+  .matchTime.matchLive {
+    @apply text-xs leading-tight h-4;
+  }
+
+  .matchMeta {
+    @apply text-[7px] relative -top-0.5;
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 500px) {
+  .currentMapScore {
+    @apply text-[12px];
+  }
+}

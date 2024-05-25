@@ -1,0 +1,7 @@
+.no-matches {
+  @apply opacity-65;
+}
+
+.guide-day {
+  @apply text-xs text-center px-1;
+}

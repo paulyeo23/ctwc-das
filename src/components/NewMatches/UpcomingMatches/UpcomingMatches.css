@@ -1,0 +1,26 @@
+@media screen and (max-width: 580px) {
+  .cols0101 .standardPageGrid {
+    grid-template-areas: "mainContent mainContent";
+  }
+}
+
+.mainContent {
+  @apply [grid-area:mainContent];
+}
+
+@media (max-width: 500px) {
+  .cols0101 .mainContent {
+    @apply overflow-hidden p-1 -m-1;
+  }
+}
+
+.upcomingMatchesSection {
+  @apply shadow-sm bg-white mb-4;
+}
+
+@media (max-width: 500px) {
+  .newMatches .liveMatchesContainer .upcomingMatchesSection,
+  .newMatches .upcomingMatchesContainer .upcomingMatchesSection {
+    @apply mb-2;
+  }
+}

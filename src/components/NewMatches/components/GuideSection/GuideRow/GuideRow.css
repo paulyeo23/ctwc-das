@@ -1,0 +1,8 @@
+.event-logo {
+  @apply max-w-[25px] max-h-[25px] mr-1;
+}
+
+img {
+  @apply align-middle;
+  border-style: none;
+}

@@ -1,0 +1,18 @@
+@media (max-width: 500px) {
+  .matchEvent {
+    @apply flex-[0_0_40px] justify-center;
+  }
+  .matchEventLogoContainer {
+    @apply mr-0;
+  }
+  .gtSmartphone-only {
+    @apply hidden !important;
+  }
+}
+
+.matchEventName {
+  @apply whitespace-pre-line overflow-y-hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
