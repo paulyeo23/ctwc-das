@@ -30,7 +30,9 @@ export const MatchTimeAndEvent: React.FC<{
         </a>
       </div>
       <div className="text">&nbsp;</div>
-      <div className="countdown font-bold text-lg max-w-full mb-1">LIVE</div>
+      <div className="countdown font-bold text-[10px] max-w-full mb-1">
+        LIVE
+      </div>
     </div>
   );
 };
