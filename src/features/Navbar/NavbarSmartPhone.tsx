@@ -1,4 +1,4 @@
-import ctwcDas from "../../../public/ctwc_das.png";
+import ctwcDas from "../../public/ctwc_das.png";
 export const NavbarSmartPhone: React.FC = () => {
   return (
     <nav
